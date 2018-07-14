@@ -1,7 +1,10 @@
 body, html {
     /*height: 100%;*/
     -webkit-tap-highlight-color: transparent;
+    font-size: 14px;
+    background-color:#f2f2f2;
 }
+
 
 /** 导航栏 **/
 .weui-tabbar__label {
@@ -24,12 +27,14 @@ body, html {
 }
 
 .owl-carousel .owl-wrapper-outer{
-    height: 220px;
+    height: 180px;
+    width: 100%;
 }
 
 .owl-theme .owl-controls {
     margin-top: -30px;
 }
+
 .placeholder {
     margin: 5px;
     padding: 0 10px;
@@ -40,8 +45,8 @@ body, html {
     /*color: #cfcfcf;*/
 }
 
-
-
+a:visited {color: #666}
+a:link {color: #666}
 
 
 
