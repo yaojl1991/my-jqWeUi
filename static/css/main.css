@@ -1,39 +1,71 @@
 body, html {
     /*height: 100%;*/
     -webkit-tap-highlight-color: transparent;
-    font-size: 14px;
-    background-color:#f2f2f2;
+    font-size: 13px;
+    background-color: #f2f2f2;
 }
 
+/** 位置 **/
+#place {
+    position: absolute;
+    z-index: 2;
+    margin: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3px 10px;
+    -webkit-border-radius: 8px;
+}
+
+#place a {
+    color: #ffffff
+}
+
+#place i {
+    padding-right: 3px;
+    color: #f55a45
+}
+
+/** 轮播图 **/
+.swiper-container {
+    width: 100%;
+    height: 200px;
+}
+
+.swiper-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: #ffffff;
+}
+
+.swiper-pagination-bullet-active {
+    background: #f55843;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 4px;
+}
 
 /** 导航栏 **/
 .weui-tabbar__label {
-    color: #000000;
+    /*color: #000000;*/
+    font-size: 12px;
 }
 
 .weui-tabbar__item.weui-bar__item--on .weui-tabbar__label {
-    color: #000000;
+    color: #f45844;
 }
 
 .weui-tabbar__item.weui-bar__item--on .weui-tabbar__icon > i, i.weui-tabbar__icon {
     color: #f45844;
 }
 
-/** 轮播图 **/
-#full-banner .item img{
-    display: block;
-    width: 100%;
-    /*height: 160px;*/
-}
 
-.owl-carousel .owl-wrapper-outer{
-    height: 180px;
-    width: 100%;
-}
-
-.owl-theme .owl-controls {
-    margin-top: -30px;
-}
 
 .placeholder {
     margin: 5px;
@@ -45,10 +77,13 @@ body, html {
     /*color: #cfcfcf;*/
 }
 
-a:visited {color: #666}
-a:link {color: #666}
+a:visited {
+    color: #000000
+}
 
-
+a:link {
+    color: #000000
+}
 
 /*.demos-title {*/
 /*text-align: center;*/

@@ -11,108 +11,179 @@
 
     <title>首页</title>
 
-    <link rel="stylesheet" href="static/font-awesome-4.5.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="static/css/weui.min.css">
-    <link rel="stylesheet" href="static/css/jquery-weui.min.css">
-    <link rel="stylesheet" href="static/css/owl.carousel.css">
-    <link rel="stylesheet" href="static/css/owl.theme.css">
-    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="/static/font-awesome-4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/static/css/weui.min.css">
+    <link rel="stylesheet" href="/static/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="/static/css/main.css">
 </head>
+
 <body>
+<div id="place">
+    <a href=""><i class="fa fa-map-marker"></i>位置</a>
+</div>
 
 <div class="banner">
-    <div class="full-banner owl-carousel owl-theme">
-        <div class="item"><img src="static/img/banner.png" alt="" style="width: 100%;"></div>
-        <div class="item"><img src="static/img/banner.png" alt="" style="width: 100%;"></div>
-        <div class="item"><img src="static/img/banner.png" alt="" style="width: 100%;"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="static/img/banner.png" /></div>
+            <div class="swiper-slide"><img src="static/img/banner.png" /></div>
+            <div class="swiper-slide"><img src="static/img/banner.png" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
     </div>
 </div>
 
 
-<div class="weui-panel weui-panel_access" style="padding: 5px 12px">
-    房源推荐
-</div>
-<div class="weui-panel__bd">
+<div class="weui-panel weui-panel_access" style="padding: 8px 12px;margin-top: 5px;font-size: 16px">房源推荐</div>
+
+<div id="fang-list">
     <div class="weui-flex">
         <div class="weui-flex__item" style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
-            <a href="fang_yuan/detail.html">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+            <a href="/fang_yuan/detail.html">
+                <div><img src="/static/img/img1.png" style="width:100%;height: 120px"/></div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+                <div class="placeholder" style="line-height:5px;height:0.8em;padding: 0">
+                    <b>
+                        <div style="width: 30%;float: left;">￥2100</div>
+                        <div style="width: 45%;float: left;">1房1厅</div>
+                        <div style="width: 25%;float: left;">25㎡</div>
+                    </b>
+                </div>
+                <div class="placeholder"
+                     style="line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left"><i
+                        class="fa fa-map-marker" style="padding-right: 3px;color: #f55a45"></i>广州市天河区华侨新村新安路211号
+                </div>
             </a>
         </div>
-        <div class="weui-flex__item" style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
-            <a href="fang_yuan/detail.html">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+        <div class="weui-flex__item"
+             style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
+            <a href="/fang_yuan/detail.html">
+                <div><img src="/static/img/img1.png" style="width:100%;height: 120px"/></div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+                <div class="placeholder" style="line-height:5px;height:0.8em;padding: 0">
+                    <b>
+                        <div style="width: 30%;float: left;">￥2100</div>
+                        <div style="width: 45%;float: left;">1房1厅</div>
+                        <div style="width: 25%;float: left;">25㎡</div>
+                    </b>
+                </div>
+                <div class="placeholder"
+                     style="line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left"><i
+                        class="fa fa-map-marker" style="padding-right: 3px;color: #f55a45"></i>广州市天河区华侨新村新安路211号
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="weui-flex">
+        <div class="weui-flex__item"
+             style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
+            <a href="/fang_yuan/detail.html">
+                <div><img src="/static/img/img1.png" style="width:100%;height: 120px"/></div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+                <div class="placeholder" style="line-height:5px;height:0.8em;padding: 0">
+                    <b>
+                        <div style="width: 30%;float: left;">￥2100</div>
+                        <div style="width: 45%;float: left;">1房1厅</div>
+                        <div style="width: 25%;float: left;">25㎡</div>
+                    </b>
+                </div>
+                <div class="placeholder"
+                     style="line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left"><i
+                        class="fa fa-map-marker" style="padding-right: 3px;color: #f55a45"></i>广州市天河区华侨新村新安路211号
+                </div>
+            </a>
+        </div>
+        <div class="weui-flex__item"
+             style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
+            <a href="/fang_yuan/detail.html">
+                <div><img src="/static/img/img1.png" style="width:100%;height: 120px"/></div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+                <div class="placeholder" style="line-height:5px;height:0.8em;padding: 0">
+                    <b>
+                        <div style="width: 30%;float: left;">￥2100</div>
+                        <div style="width: 45%;float: left;">1房1厅</div>
+                        <div style="width: 25%;float: left;">25㎡</div>
+                    </b>
+                </div>
+                <div class="placeholder"
+                     style="line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left"><i
+                        class="fa fa-map-marker" style="padding-right: 3px;color: #f55a45"></i>广州市天河区华侨新村新安路211号
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="weui-flex">
+        <div class="weui-flex__item"
+             style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
+            <a href="/fang_yuan/detail.html">
+                <div><img src="/static/img/img1.png" style="width:100%;height: 120px"/></div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+                <div class="placeholder" style="line-height:5px;height:0.8em;padding: 0">
+                    <b>
+                        <div style="width: 30%;float: left;">￥2100</div>
+                        <div style="width: 45%;float: left;">1房1厅</div>
+                        <div style="width: 25%;float: left;">25㎡</div>
+                    </b>
+                </div>
+                <div class="placeholder"
+                     style="line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left"><i
+                        class="fa fa-map-marker" style="padding-right: 3px;color: #f55a45"></i>广州市天河区华侨新村新安路211号
+                </div>
+            </a>
+        </div>
+        <div class="weui-flex__item"
+             style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
+            <a href="/fang_yuan/detail.html">
+                <div><img src="/static/img/img1.png" style="width:100%;height: 120px"/></div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
+                <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
+                <div class="placeholder" style="line-height:5px;height:0.8em;padding: 0">
+                    <b>
+                        <div style="width: 30%;float: left;">￥2100</div>
+                        <div style="width: 45%;float: left;">1房1厅</div>
+                        <div style="width: 25%;float: left;">25㎡</div>
+                    </b>
+                </div>
+                <div class="placeholder"
+                     style="line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left"><i
+                        class="fa fa-map-marker" style="padding-right: 3px;color: #f55a45"></i>广州市天河区华侨新村新安路211号
+                </div>
             </a>
         </div>
     </div>
 </div>
-<div class="weui-panel__bd">
-    <div class="weui-flex">
-        <div class="weui-flex__item" style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
-        </div>
-        <div class="weui-flex__item" style="width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
-        </div>
-    </div>
-</div>
 
-<div class="weui-panel__bd">
-    <div class="weui-flex">
-        <div class="weui-flex__item" style="width: 50%;margin: 10px;background-color: #ffffff;">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
-        </div>
-        <div class="weui-flex__item" style="width: 50%;margin: 10px;background-color: #ffffff;">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
-        </div>
-    </div>
-</div>
 
-<div class="weui-panel__bd">
-    <div class="weui-flex">
-        <div class="weui-flex__item" style="width: 50%;margin: 10px;">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
-        </div>
-        <div class="weui-flex__item" style="width: 50%;margin: 10px;">
-            <div><img src="static/img/img1.png" style="width:100%;height: 120px"/></div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">N+1国际青年社区</div>
-            <div class="placeholder" style="line-height:5px;height:1.2em">（华侨新村店）</div>
-        </div>
-    </div>
+<div class="weui-loadmore">
+    <i class="weui-loading"></i>
+    <span class="weui-loadmore__tips" style="color: #999">正在加载,请稍等！</span>
 </div>
 
 <div class="weui-footer" style="margin-top: 10px;margin-bottom: 60px;">
-    <p class="weui-footer__links">
-        <a href="javascript:void(0);" class="weui-footer__link">底部链接</a>
-        <a href="javascript:void(0);" class="weui-footer__link">底部链接</a>
-    </p>
-    <p class="weui-footer__text">Copyright © 2008-2016 weui.io</p>
+    <!--<p class="weui-footer__links">-->
+    <!--<a href="javascript:void(0);" class="weui-footer__link">底部链接</a>-->
+    <!--<a href="javascript:void(0);" class="weui-footer__link">底部链接</a>-->
+    <!--</p>-->
+    <p class="weui-footer__text">Copyright © 2018 满租</p>
 </div>
 
 <div class="weui-tab">
-    <div class="weui-tabbar" style="position: fixed;bottom: 0;z-index: 999">
-        <a href="fang_yuan/detail.html" class="weui-tabbar__item weui-bar__item--on">
+    <div class="weui-tabbar" style="position: fixed;bottom: 0;z-index: 999;">
+        <a href="/index.html" class="weui-tabbar__item weui-bar__item--on">
             <!--<span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>-->
             <div class="weui-tabbar__icon">
                 <i class="fa fa-home"></i>
             </div>
             <p class="weui-tabbar__label">房源</p>
         </a>
-        <a href="#tab2" class="weui-tabbar__item">
+        <a href="/see_room/index.html" class="weui-tabbar__item">
             <div class="weui-tabbar__icon">
                 <i class="fa fa-eye"></i>
             </div>
@@ -124,7 +195,7 @@
             </div>
             <p class="weui-tabbar__label">服务预约</p>
         </a>
-        <a href="#tab4" class="weui-tabbar__item">
+        <a href="/user/index.html" class="weui-tabbar__item">
             <div class="weui-tabbar__icon">
                 <i class="fa fa-user"></i>
             </div>
@@ -135,32 +206,36 @@
 
 </body>
 
-<script src="static/js/jquery-2.1.4.js"></script>
-<script src="static/js/jquery-weui.min.js"></script>
+<script src="/static/js/jquery-2.1.4.js"></script>
+<script src="/static/js/jquery-weui.min.js"></script>
 
 <!--<script src="static/js/fastclick.js"></script>-->
-<script src="static/js/swiper.min.js"></script>
-<script src="static/js/owl.carousel.js"></script>
+<script src="/static/js/swiper.min.js"></script>
 
 <script>
     // $(function() {
     // FastClick.attach(document.body);
     // });
-    $(document).ready(function () {
 
-        $(".full-banner").owlCarousel({
-            slideSpeed: 300,
-            paginationSpeed: 400,
-            singleItem: true
+    $(".swiper-container").swiper({
+        loop: true,
+        autoplay: 3000
+    });
 
-            // "singleItem:true" is a shortcut for:
-            // items : 1,
-            // itemsDesktop : false,
-            // itemsDesktopSmall : false,
-            // itemsTablet: false,
-            // itemsMobile : false
-
-        });
+    //上拉加载
+    var loading = false;
+    $(document.body).infinite().on("infinite", function () {
+        //判断数量是否达到了
+        if ($('.weui-flex__item').length< '10') {
+            if (loading) return;
+            loading = true;
+            setTimeout(function () {
+                $("#fang-list").append("<div class=\"weui-flex\"><div class=\"weui-flex__item\" style=\"width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;\"><a href=\"/fang_yuan/detail.html\"><div><img src=\"/static/img/img1.png\" style=\"width:100%;height: 120px\"/></div><div class=\"placeholder\" style=\"line-height:5px;height:1.2em\">N+1国际青年社区</div><div class=\"placeholder\" style=\"line-height:5px;height:1.2em\">（华侨新村店）</div><div class=\"placeholder\" style=\"line-height:5px;height:0.8em;padding: 0\"><b><div style=\"width: 30%;float: left;\">￥2100</div><div style=\"width: 45%;float: left;\">1房1厅</div><div style=\"width: 25%;float: left;\">25㎡</div></b></div><div class=\"placeholder\" style=\"line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left\"><i class=\"fa fa-map-marker\" style=\"padding-right: 3px;color: #f55a45\"></i>广州市天河区华侨新村新安路211号</div></a></div><div class=\"weui-flex__item\" style=\"width: 50%;margin: 10px 10px 0 10px;background-color: #ffffff;\"><a href=\"/fang_yuan/detail.html\"><div><img src=\"/static/img/img1.png\" style=\"width:100%;height: 120px\"/></div><div class=\"placeholder\" style=\"line-height:5px;height:1.2em\">N+1国际青年社区</div><div class=\"placeholder\" style=\"line-height:5px;height:1.2em\">（华侨新村店）</div><div class=\"placeholder\" style=\"line-height:5px;height:0.8em;padding: 0\"><b><div style=\"width: 30%;float: left;\">￥2100</div><div style=\"width: 45%;float: left;\">1房1厅</div><div style=\"width: 25%;float: left;\">25㎡</div></b></div><div class=\"placeholder\"style=\"line-height:5px;height:3em;padding: 0;line-height: 18px;text-align: left\"><i class=\"fa fa-map-marker\" style=\"padding-right: 3px;color: #f55a45\"></i>广州市天河区华侨新村新安路211号</div></a></div></div>\n");
+                loading = false;
+            }, 2000);
+        }else{
+            $('.weui-loadmore').html('<span style="color: #999">~~我也是有底线的~~</span>');
+        }
 
     });
 

@@ -9,26 +9,27 @@
     <meta http-equiv="Pragma" content="no-cache"/>
     <meta http-equiv="Expires" content="0"/>
 
-    <title>首页</title>
+    <title>房源介绍</title>
 
-    <link rel="stylesheet" href="../static/font-awesome-4.5.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="../static/css/weui.min.css">
-    <link rel="stylesheet" href="../static/css/jquery-weui.min.css">
-    <link rel="stylesheet" href="../static/css/owl.carousel.css">
-    <link rel="stylesheet" href="../static/css/owl.theme.css">
-    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="/static/font-awesome-4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/static/css/weui.min.css">
+    <link rel="stylesheet" href="/static/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="/static/css/main.css">
 </head>
 
 
 <body>
 
 <div class="banner">
-    <div class="full-banner owl-carousel owl-theme">
-        <div class="item"><img src="../static/img/fang_yuan.png" alt="" style="width: 100%;"></div>
-        <div class="item"><img src="../static/img/fang_yuan.png" alt="" style="width: 100%;"></div>
-        <div class="item"><img src="../static/img/fang_yuan.png" alt="" style="width: 100%;"></div>
-        <div class="item"><img src="../static/img/fang_yuan.png" alt="" style="width: 100%;"></div>
-        <div class="item"><img src="../static/img/fang_yuan.png" alt="" style="width: 100%;"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/static/img/fang_yuan.png" /></div>
+            <div class="swiper-slide"><img src="/static/img/fang_yuan.png" /></div>
+            <div class="swiper-slide"><img src="/static/img/fang_yuan.png" /></div>
+            <div class="swiper-slide"><img src="/static/img/fang_yuan.png" /></div>
+            <div class="swiper-slide"><img src="/static/img/fang_yuan.png" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
     </div>
 </div>
 
@@ -38,14 +39,17 @@
             style="color: #f55843;font-size: 18px;"><b>￥2100</b></span></div>
 </div>
 
-<div class="weui-panel weui-panel_access" style="padding: 8px 12px;margin-top: 0px;">
-    <a href="javascript:;" id="show-toast-text">
-        <span><i class="fa fa-map-marker" style="color: #cf340b;font-size: 16px"></i> 广州市天河区华侨新村新安路211号</span>
-        <span style="float: right;"><i class="fa fa-angle-right" style="font-size:22px;padding-right: 5px"></i></span>
+<div class="weui-panel weui-panel_access" style="margin-top: 0px;">
+    <a id="show-toast-text" class="weui-cell weui-cell_access" href="javascript:;">
+        <div class="weui-cell__bd">
+            <i class="fa fa-map-marker" style="color: #cf340b;font-size: 17px;padding-right: 3px"></i>广州市天河区华侨新村新安路211号
+        </div>
+        <div class="weui-cell__ft">
+        </div>
     </a>
 </div>
 
-<div class="weui-tab" style="margin-top: 1px">
+<div class="weui-tab" style="margin-top: 2px">
     <div class="weui-navbar">
         <a class="weui-navbar__item weui-bar__item--on" style="padding:6px 0" href="#tab1">
             公寓介绍
@@ -58,7 +62,7 @@
         </a>
     </div>
     <div class="weui-tab__bd">
-        <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active" style="padding: 0px 15px">
+        <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active" style="padding: 0px 15px;line-height: 26px;">
             N+1国际青年社区（华侨新村店）位于广州市天河区华侨新村新安路211号，距离5号线华侨地铁站仅200米，距离华侨新BRT公交车站仅130米，交通便利。
         </div>
         <div id="tab2" class="weui-tab__bd-item">
@@ -101,40 +105,41 @@
         <div id="tab3" class="weui-tab__bd-item">
             <div class="weui-flex" style="margin-top: 20px">
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/1.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/1.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">床</div>
                 </div>
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/2.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/2.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">衣柜</div>
                 </div>
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/3.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/3.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">桌子</div>
                 </div>
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/4.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/4.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">沙发</div>
                 </div>
             </div>
             <div class="weui-flex" style="margin-top: 20px">
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/5.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/5.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">电视</div>
                 </div>
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/6.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/6.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">冰箱</div>
                 </div>
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/7.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/7.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">洗衣机</div>
                 </div>
                 <div class="weui-flex__item" style="padding: 10px;text-align: center">
-                    <div><img src="../static/img/fang/8.png" style="height: 40px"/></div>
+                    <div><img src="/static/img/fang/8.png" style="height: 40px"/></div>
                     <div class="placeholder" style="padding:0;margin: 0;color: #f45844">空调</div>
                 </div>
             </div>
+            <div style="margin-bottom: 40px"></div>
         </div>
 
 
@@ -152,33 +157,23 @@
             </div>
         </div>
     </div>
+</div>
 </body>
 
-<script src="../static/js/jquery-2.1.4.js"></script>
-<script src="../static/js/jquery-weui.min.js"></script>
+<script src="/static/js/jquery-2.1.4.js"></script>
+<script src="/static/js/jquery-weui.min.js"></script>
 
-<!--<script src="../static/js/fastclick.js"></script>-->
-<script src="../static/js/swiper.min.js"></script>
-<script src="../static/js/owl.carousel.js"></script>
+<!--<script src="/static/js/fastclick.js"></script>-->
+<script src="/static/js/swiper.min.js"></script>
 
 <script>
     // $(function() {
     // FastClick.attach(document.body);
     // });
-    $(document).ready(function () {
 
-        $(".full-banner").owlCarousel({
-            slideSpeed: 300,
-            paginationSpeed: 400,
-            singleItem: true
-
-            // "singleItem:true" is a shortcut for:
-            // items : 1,
-            // itemsDesktop : false,
-            // itemsDesktopSmall : false,
-            // itemsTablet: false,
-            // itemsMobile : false
-        });
+    $(".swiper-container").swiper({
+        loop: true,
+        autoplay: 3000
     });
 
     $(document).on("click", "#show-confirm", function () {
@@ -193,13 +188,4 @@
         })
 
 </script>
-<style>
-    .owl-theme .owl-controls .owl-page span {
-        background: #f55843;
-    }
-
-    /*.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{*/
-    /*opacity:1;*/
-    /*}*/
-</style>
 </html>
