@@ -20,19 +20,16 @@ body, html {
 #full-banner .item img{
     display: block;
     width: 100%;
-    height: 360px;
+    /*height: 160px;*/
 }
 
 .owl-carousel .owl-wrapper-outer{
-    height: 280px;
+    height: 220px;
 }
 
 .owl-theme .owl-controls {
-    margin-top: -40px;
+    margin-top: -30px;
 }
-
-
-
 .placeholder {
     margin: 5px;
     padding: 0 10px;
