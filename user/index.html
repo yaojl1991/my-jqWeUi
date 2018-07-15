@@ -17,10 +17,45 @@
     <link rel="stylesheet" href="../static/css/main.css">
 </head>
 <body>
-用户页面
+
+<div class="weui-cells">
+    <div class="weui-cell">
+        <div class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+            <img src="../static/img/img1.png" style="width: 50px;height: 50px;display: block">
+            <span class="weui-badge" style="position: absolute;top: -.4em;right: -.4em;">8</span>
+        </div>
+        <div class="weui-cell__bd">
+            <p>联系人名称</p>
+            <p style="font-size: 13px;color: #888888;">摘要信息</p>
+        </div>
+    </div>
+
+    <div class="weui-cell weui-cell_access" style="margin-bottom: 10px;">
+        <div class="weui-navbar" style="position: inherit;">
+            <a class="weui-navbar__item weui-bar__item--on" style="padding:6px 0" href="#tab1">
+                账单
+            </a>
+            <a class="weui-navbar__item" style="padding:6px 0" href="#tab2">
+                账单
+            </a>
+            <a class="weui-navbar__item" style="padding:6px 0" href="#tab3">
+                账单
+            </a>
+        </div>
+    </div>
+
+    <div class="weui-cell weui-cell_access">
+        <div class="weui-cell__bd">
+            <span style="vertical-align: middle">账单</span>
+            <span class="weui-badge" style="margin-left: 5px;">8</span>
+        </div>
+        <div class="weui-cell__ft">详细信息</div>
+    </div>
+
+</div>
 
 <div class="weui-tab">
-    <div class="weui-tabbar" style="position: fixed;bottom: 0;z-index: 999;">
+    <div class="weui-tabbar">
         <a href="../index.html" class="weui-tabbar__item">
             <!--<span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>-->
             <div class="weui-tabbar__icon">
@@ -49,13 +84,7 @@
     </div>
 </div>
 
-<div class="swiper-pagination swiper-pagination-bullets">
-    <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-    <span class="swiper-pagination-bullet"></span>
-    <span class="swiper-pagination-bullet"></span>
-</div>
 </body>
-
 <script src="../static/js/jquery-2.1.4.js"></script>
 <script src="../static/js/jquery-weui.min.js"></script>
 

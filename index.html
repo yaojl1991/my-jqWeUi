@@ -211,6 +211,7 @@
 
 <!--<script src="static/js/fastclick.js"></script>-->
 <script src="/static/js/swiper.min.js"></script>
+<script src="/static/js/city-picker.min.js"></script>
 
 <script>
     // $(function() {
@@ -220,6 +221,14 @@
     $(".swiper-container").swiper({
         loop: true,
         autoplay: 3000
+    });
+
+    $("#place").cityPicker({
+        title: "选择目的地",
+        showDistrict: false,
+        onChange: function (picker, values, displayValues) {
+            console.log(values, displayValues);
+        }
     });
 
     //上拉加载

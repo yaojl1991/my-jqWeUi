@@ -52,6 +52,12 @@ body, html {
 }
 
 /** 导航栏 **/
+.weui-tabbar {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
 .weui-tabbar__label {
     /*color: #000000;*/
     font-size: 12px;
@@ -64,8 +70,6 @@ body, html {
 .weui-tabbar__item.weui-bar__item--on .weui-tabbar__icon > i, i.weui-tabbar__icon {
     color: #f45844;
 }
-
-
 
 .placeholder {
     margin: 5px;
