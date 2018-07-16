@@ -74,40 +74,43 @@
     <div class="button_sp_area" style="text-align: center;">
         <a style="padding: 0 40px;margin: 20px;color: #ffffff;background-color: #999" href="javascript:;"
            class="weui-btn weui-btn_mini" onclick="history.go(-1)">取 消</a>
-        <a id="show-toast" style="padding: 0 40px;margin: 20px;color: #ffffff;background-color: #f55843" href="javascript:;"
+        <a id="show-toast" style="padding: 0 40px;margin: 20px;color: #ffffff;background-color: #f55843"
+           href="javascript:;"
            class="weui-btn weui-btn_mini">确 定</a>
     </div>
+</div>
 
-    <div class="weui-tab">
-        <div class="weui-tabbar">
-            <a href="/index.html" class="weui-tabbar__item">
-                <!--<span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>-->
-                <div class="weui-tabbar__icon">
-                    <i class="fa fa-home"></i>
-                </div>
-                <p class="weui-tabbar__label">房源</p>
-            </a>
-            <a href="/see_room/index.html" class="weui-tabbar__item">
-                <div class="weui-tabbar__icon">
-                    <i class="fa fa-eye"></i>
-                </div>
-                <p class="weui-tabbar__label">预约看房</p>
-            </a>
-            <a href="/fu_wu/index.html" class="weui-tabbar__item weui-bar__item--on">
-                <div class="weui-tabbar__icon">
-                    <i class="fa fa-heart"></i>
-                </div>
-                <p class="weui-tabbar__label">服务预约</p>
-            </a>
-            <a href="/user/index.html" class="weui-tabbar__item">
-                <div class="weui-tabbar__icon">
-                    <i class="fa fa-user"></i>
-                </div>
-                <p class="weui-tabbar__label">我的</p>
-            </a>
-        </div>
+
+<div class="weui-tab">
+    <div class="weui-tabbar">
+        <a href="/index.html" class="weui-tabbar__item">
+            <!--<span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>-->
+            <div class="weui-tabbar__icon">
+                <i class="fa fa-home"></i>
+            </div>
+            <p class="weui-tabbar__label">房源</p>
+        </a>
+        <a href="/see_room/index.html" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <i class="fa fa-eye"></i>
+            </div>
+            <p class="weui-tabbar__label">预约看房</p>
+        </a>
+        <a href="/fu_wu/index.html" class="weui-tabbar__item weui-bar__item--on">
+            <div class="weui-tabbar__icon">
+                <i class="fa fa-heart"></i>
+            </div>
+            <p class="weui-tabbar__label">服务预约</p>
+        </a>
+        <a href="/user/index.html" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <i class="fa fa-user"></i>
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
     </div>
 </div>
+
 
 </body>
 
@@ -117,8 +120,8 @@
 <!--<script src="/static/js/fastclick.js"></script>-->
 <script src="/static/js/swiper.min.js"></script>
 <script>
-    $(document).on("click", "#show-toast", function() {
-        $.toast("操作成功", function() {
+    $(document).on("click", "#show-toast", function () {
+        $.toast("操作成功", function () {
 
         });
     })
