@@ -10,6 +10,10 @@ body, html {
     color: #f55843;
 }
 
+.color-black{
+    color: #000000;
+}
+
 /****/
 
 /** 链接颜色 **/
@@ -201,8 +205,11 @@ a:link {
     height: 40px
 }
 
-.fang-yuan-detail .weui-flex__item {
+.fang-yuan-detail #tab3 .weui-flex__item {
     padding: 10px;
 }
 /****/
+
+/** 服务预约-填写 **/
+
 
